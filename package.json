@@ -1,0 +1,12 @@
+{
+  "name": "employee-tracking-nerve-pulse",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Employee Tracking & Nerve Pulse HRMS Web Platform - Frontend, FastAPI REST Backend, and Firebase Cloud Functions",
+  "scripts": {
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "backend:dev": "cd backend && uvicorn app.main:app --reload --host 127.0.0.1 --port 8000",
+    "functions:serve": "npm --prefix functions run serve"
+  }
+}
